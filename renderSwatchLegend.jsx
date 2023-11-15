@@ -22,7 +22,7 @@
 // Edits by Adam Green (@wrokred) www.wrokred.com
 
 //////////////////////////////////////////////////////////////////
-doc = activeDocument,
+doc = activeDocument;
 swatches = doc.swatches.getSelected(),
 cols = 4, // number of columns in group
 displayAs = "RGBColor", //or "CMYKColor"
