@@ -22,8 +22,7 @@
 // Edits by Adam Green (@wrokred) www.wrokred.com
 
 //////////////////////////////////////////////////////////////////
-doc = activeDocument,
-swatches = doc.swatches.getSelected(),
+swatches = activeDocument.swatches.getSelected(),
 cols = 4, // number of columns in group
 displayAs = "RGBColor", //or "CMYKColor"
 printColors = ["HEX", "RGB", "CMYK", "LAB", "GrayScale"], // RGB, CMYK, LAB and/or GrayScale
